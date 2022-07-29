@@ -44,7 +44,7 @@
 				- data-offset="10/60:1920"	(both)
 -->
 
-<div class="mab_scroll" data-href="target" data-offset="offset"></div>
+<div class="mab_scroll" data-href="target" data-offset="offset in pixel"></div>
 
 
 <!-- ---------- ANIMATION -->
@@ -88,9 +88,7 @@
 
 <!--
 	---------- SPLIDE
-		- init splide's slider :
-			window.splide = {};
-			window.splide[selector] = new Splide(selector);
+		- init splide's slider : window.splide[id] = new Splide(id);
 		- fullscreen : <div class="splide mab_slider--fullscreen">
 -->
 
