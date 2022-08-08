@@ -1,4 +1,5 @@
-import ElementCollection from "./modules/min/ElementCollection.min";
+import ElementCollection from "./modules/min/ElementCollection.min.js";
+export const __is_mobile = [1024, window.innerWidth < 1025];
 ;
 window.splide = {};
 const mab = (param) => {
@@ -25,7 +26,7 @@ mab.init = () => {
         } });
     load_splide(head);
     mab(document).ready(() => {
-        import("./modules/min/mount.min").then((Module) => {
+        import("./modules/min/mount.min.js").then((Module) => {
             Module.default();
         });
     });
