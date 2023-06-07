@@ -38,8 +38,11 @@
 
 ### SCROLL
 > * offset : desktop(px|vw) / mobile(px|vw) : breakpoint
+>
 >  EX: - data-offset="10vw"		(only desktop)
+>
 >  EX: - data-offset="60:1920" 		(only breakpoint)
+>
 >  EX: - data-offset="10/60:1920"	(both)
 ```
 <div class="mab_scroll" data-href="target" data-offset="6vw/40px:1024"></div>
@@ -48,11 +51,17 @@
 ### STICKY
 > * stop : valid selector
 > * breakpoint : mount on breakpoint
+>
 >  EX: - data-breakpoint=">1024" (only desktop)
+>
 >  EX: - data-breakpoint="<1025" (only mobile)
+>
 > * offset : desktop(px|vw) / mobile(px|vw) : breakpoint
+>
 >  EX: - data-offset="10vw"		(only desktop)
+>
 >  EX: - data-offset="60:1920" 		(only breakpoint)
+>
 >  EX: - data-offset="10/60:1920"	(both)
 ```
 <div class="mab_sticky" data-stop="#foo" data-breakpoint=">1024" data-offset="6vw/40px:1024">
