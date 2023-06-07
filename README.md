@@ -1,7 +1,7 @@
-<!-- ========== TEMPLATE -->
+# ========== TEMPLATE
 
 
-<!-- ---------- CHECKBOX -->
+## ---------- CHECKBOX
 
 <div class="mab_checkbox">
 	<input type="radio || checkbox" name="" value="">
@@ -9,7 +9,7 @@
 </div>
 
 
-<!-- ---------- RADIO -->
+## ---------- RADIO
 
 <label class="mab_radio">
 	<span class="mab_radio__input">
@@ -19,7 +19,7 @@
 	<span class="mab_radio__label"></span>
 </label>
 
-<!-- ---------- SWITCH -->
+## ---------- SWITCH
 
 <label class="mab_switch">
 	<input type="checkbox" />
@@ -27,7 +27,7 @@
 </label>
 
 
-<!-- ---------- COLLAPSE -->
+## ---------- COLLAPSE
 
 <div class="mab_collapse">
 	<span class="mab_collapse__button"></span>
@@ -35,41 +35,41 @@
 </div>
 
 
+## ---------- SCROLL
 <!--
-	---------- SCROLL
-		- offset : desktop(px|vw) / mobile(px|vw) : breakpoint
-			ex :
-				- data-offset="10vw"		(only desktop)
-				- data-offset="60:1920" 	(only breakpoint)
-				- data-offset="10/60:1920"	(both)
+	- offset : desktop(px|vw) / mobile(px|vw) : breakpoint
+		ex :
+			- data-offset="10vw"		(only desktop)
+			- data-offset="60:1920" 	(only breakpoint)
+			- data-offset="10/60:1920"	(both)
 -->
 
 <div class="mab_scroll" data-href="target" data-offset="6vw/40px:1024"></div>
 
 
+## ---------- STICKY
 <!--
-	---------- STICKY
-			- stop : valid selector
-			- breakpoint : mount on breakpoint
-			ex :
-				- data-breakpoint=">1024" (only desktop)
-				- data-breakpoint="<1025" (only mobile)
-			- offset : desktop(px|vw) / mobile(px|vw) : breakpoint
-			ex :
-				- data-offset="10vw"		(only desktop)
-				- data-offset="60:1920" 	(only breakpoint)
-				- data-offset="10/60:1920"	(both)
+	- stop : valid selector
+	- breakpoint : mount on breakpoint
+	ex :
+		- data-breakpoint=">1024" (only desktop)
+		- data-breakpoint="<1025" (only mobile)
+	- offset : desktop(px|vw) / mobile(px|vw) : breakpoint
+	ex :
+		- data-offset="10vw"		(only desktop)
+		- data-offset="60:1920" 	(only breakpoint)
+		- data-offset="10/60:1920"	(both)
 -->
 
 <div class="mab_sticky" data-stop="#foo" data-breakpoint=">1024" data-offset="6vw/40px:1024">
 
 
-<!-- ---------- ANIMATION -->
+## ---------- ANIMATION
 
 <div class="mab_animation"></div>
 
 	
-<!-- ---------- IMG_COMP -->
+## ---------- IMG_COMP
 
 <div class="mab_img_cmp">
 	<div class="mab_img_cmp__img" data-src="image"></div>
@@ -77,7 +77,7 @@
 </div>
 
 
-<!-- ---------- MODAL -->
+## ---------- MODAL
 
 <span class="mab_modal__open" data-href="#modal_id"> open modal </span>
 <span class="mab_modal__open" data-href="pages/modals.html#modal_id"> open modal with ajax </span>
@@ -87,14 +87,14 @@
 </div>
 
 
-<!-- ---------- LIGHTBOX -->
+## ---------- LIGHTBOX
 
 <img class="mab_lightbox" data-id="mab_lightbox" src="imgage" />
 
 
+## ---------- SLIDER
 <!-- 
-	---------- SLIDER
-		- fullscreen : <div class="mab_slider mab_slider--fullscreen">
+	- fullscreen : <div class="mab_slider mab_slider--fullscreen">
 -->
 
 <div class="mab_slider" data-interval="interval in ms">
@@ -103,10 +103,10 @@
 </div>
 
 
+## ---------- SPLIDE
 <!--
-	---------- SPLIDE
-		- init splide's slider : window.splide[id] = new Splide(id);
-		- fullscreen : <div class="splide mab_slider--fullscreen">
+	- init splide's slider : window.splide[id] = new Splide(id);
+	- fullscreen : <div class="splide mab_slider--fullscreen">
 -->
 
 <div class="splide">
@@ -119,6 +119,6 @@
 </div>
 
 
-<!-- ---------- COMPLETION	-->
+## ---------- COMPLETION	
 
 <input class="mab_completion" data-href="https://tech.agence-markus.com/librairies/getCity.php?term=" />
