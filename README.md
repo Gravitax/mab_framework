@@ -38,10 +38,9 @@
 
 ### SCROLL
 > - offset : desktop(px|vw) / mobile(px|vw) : breakpoint
->	ex :
->		- data-offset="10vw"		(only desktop)
->		- data-offset="60:1920" 	(only breakpoint)
->		- data-offset="10/60:1920"	(both)
+> EX: - data-offset="10vw"		(only desktop)
+> EX: - data-offset="60:1920" 		(only breakpoint)
+> EX: - data-offset="10/60:1920"	(both)
 ```
 <div class="mab_scroll" data-href="target" data-offset="6vw/40px:1024"></div>
 ```
@@ -49,14 +48,12 @@
 ### STICKY
 > - stop : valid selector
 > - breakpoint : mount on breakpoint
->	ex :
->		- data-breakpoint=">1024" (only desktop)
->		- data-breakpoint="<1025" (only mobile)
+> EX: - data-breakpoint=">1024" (only desktop)
+> EX: - data-breakpoint="<1025" (only mobile)
 > - offset : desktop(px|vw) / mobile(px|vw) : breakpoint
->	ex :
->		- data-offset="10vw"		(only desktop)
->		- data-offset="60:1920" 	(only breakpoint)
->		- data-offset="10/60:1920"	(both)
+> EX: - data-offset="10vw"		(only desktop)
+> EX: - data-offset="60:1920" 		(only breakpoint)
+> EX: - data-offset="10/60:1920"	(both)
 ```
 <div class="mab_sticky" data-stop="#foo" data-breakpoint=">1024" data-offset="6vw/40px:1024">
 ```
@@ -90,7 +87,7 @@
 ```
 
 ### SLIDER
-> - fullscreen : <div class="mab_slider mab_slider--fullscreen">
+> - fullscreen : `<div class="mab_slider mab_slider--fullscreen">`
 ```
 <div class="mab_slider" data-interval="interval in ms">
 	<span class="mab_slider__element" data-src="image"></span>
@@ -100,7 +97,7 @@
 
 ### SPLIDE
 > - init splide's slider : window.splide[id] = new Splide(id);
-> - fullscreen : <div class="splide mab_slider--fullscreen">
+> - fullscreen : `<div class="splide mab_slider--fullscreen">`
 ```
 <div class="splide">
 	<div class="splide__track">
