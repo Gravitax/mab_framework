@@ -11,10 +11,10 @@ const load_splide = (head) => {
     if (document.querySelector(".splide")) {
         window.splide_tmp = {};
         head.create_element({ append: true, tag: "link", props: {
-                "type": "text/css",
-                "rel": "stylesheet",
-                "href": `./public/mab_framework/css/splide.min.css`
-            } });
+            "type": "text/css",
+        	"rel": "stylesheet",
+            "href": `./public/mab_framework/css/splide.min.css`
+        } });
     }
 };
 mab.init = () => {
